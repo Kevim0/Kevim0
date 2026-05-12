@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝
 ```
 
-**Software Developer · IoT · Backend · Hardware Integration**
+**Backend Developer · IoT · Hardware Integration**
 
 *Santo Domingo, RD*
 
@@ -22,25 +22,40 @@
 
 ## Sobre mí
 
-Técnico en desarrollo de software especializado en **backend e integración hardware-software**. Me interesa construir sistemas que conectan el mundo físico con el digital: desde el firmware hasta el servidor. Trabajo con microcontroladores, APIs, y aplicaciones móviles como partes de un mismo sistema, no como capas separadas.
+Desarrollo backend con enfoque en arquitectura limpia, modelado de datos y seguridad. Trabajo principalmente con **.NET (C#)** y **Node.js**, construyendo APIs REST que van desde el diseño de base de datos hasta la autenticación y el despliegue.
+
+Lo que me diferencia es que también opero en la capa de hardware: integro esas APIs con microcontroladores y dispositivos físicos, lo que me da una visión completa del sistema de extremo a extremo.
 
 ---
 
-## 🛰️ Proyectos destacados
+## ⚙️ Backend — Lo que hago
+
+### APIs REST
+Diseño e implementación de APIs con **.NET 8 / ASP.NET** y **Node.js / Express**, siguiendo principios de arquitectura limpia (MVC, Hexagonal). Endpoints bien estructurados, manejo de errores, validaciones y documentación.
+
+### Bases de datos & Modelado
+Modelado relacional con **PostgreSQL** y **SQL Server**. Uso de stored procedures, transacciones y optimización de consultas. También trabajo con **Supabase** para proyectos que requieren rapidez sin sacrificar estructura.
+
+### Autenticación & Seguridad
+Implementación de flujos de autenticación seguros: manejo de sesiones, tokens y control de acceso. No solo conecto endpoints — me aseguro de que estén protegidos correctamente.
+
+---
+
+## 🛰️ Proyectos IoT + Backend
 
 ### [ParabolicAntenna](https://github.com/Kevim0/ParabolicAntenna)
 > Sistema de tracking automático para antena parabólica motorizada
 
-Sistema distribuido que rastrea señales de red en tiempo real. Una **Raspberry Pi** calcula trayectorias y optimización mientras un **ESP32** ejecuta los comandos de motor y procesa señal RF.
+Sistema distribuido donde una **Raspberry Pi** calcula trayectorias y un **ESP32** ejecuta comandos de motor y procesa señal RF en tiempo real. El backend coordina la comunicación entre capas.
 
-`Raspberry Pi` `ESP32` `C++` `Python` `Control de Motores` `Procesamiento RF`
+`Raspberry Pi` `ESP32` `C++` `Python` `Control de Motores` `RF`
 
 ---
 
 ### Nami — Asistente Domótico con IA *(Colaborativo)*
 > Control del hogar mediante lenguaje natural
 
-La app móvil captura voz, la envía a **Mistral AI** para interpretar la intención, y transmite los comandos vía HTTP al ESP32 para ejecución física. Desarrollé la aplicación móvil completa y la integración con la API de Mistral.
+App móvil que captura voz → **Mistral AI** interpreta la intención → comandos HTTP al ESP32 para ejecución física. Desarrollé la aplicación móvil completa y la integración con la API de Mistral.
 
 `React Native` `TypeScript` `Mistral AI` `ESP32` `HTTP` `NLP`
 
@@ -49,9 +64,10 @@ La app móvil captura voz, la envía a **Mistral AI** para interpretar la intenc
 ## Stack
 
 ```
-Backend        →  .NET 8 / ASP.NET · Node.js · TypeScript · REST APIs · PHP
+Backend        →  .NET 8 / ASP.NET · Node.js · Express · TypeScript · REST
+Auth & Seg.    →  JWT · Manejo de sesiones · Control de acceso
+Bases de datos →  PostgreSQL · SQL Server · Supabase · Stored Procedures
 IoT/Hardware   →  ESP32 · Arduino · Raspberry Pi · C++ · PlatformIO · RF
-Bases de datos →  PostgreSQL · SQL Server · Supabase
 Frontend       →  React · React Native · Expo · JavaScript / TypeScript
 Infra          →  Docker · Linux (Manjaro) · AWS EC2 · SSH · Git
 Otros          →  Unity (C#) · Bash/Shell · WinForms
@@ -74,5 +90,5 @@ Formación complementaria en desarrollo de videojuegos con Unity (C#)
 ---
 
 <div align="center">
-  <sub>Construyendo desde el firmware hasta el servidor.</sub>
+  <sub>Del modelo de datos al firmware — sistemas completos.</sub>
 </div>
